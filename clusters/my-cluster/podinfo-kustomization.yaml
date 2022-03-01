@@ -12,7 +12,7 @@ spec:
     kind: GitRepository
     name: podinfo
   targetNamespace: default
-patches:
+  patches:
     - patch: |-
         apiVersion: autoscaling/v2beta2
         kind: HorizontalPodAutoscaler
